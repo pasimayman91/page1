@@ -9,11 +9,11 @@ body
 body::-webkit-scrollbar 
 {
     /* عرض Scrollbar */
-    width: 2px;
+    width: 5px;
    }
    body::-webkit-scrollbar-track {
     /* تلوين منطقة التي يتحرك فيها Scroll */
-    background: rgb(0, 0, 0);
+    background: #1d2936;
    }
    body::-webkit-scrollbar-thumb {
     /* تغيير لون Scroll */
@@ -23,8 +23,8 @@ body::-webkit-scrollbar
     border-radius: 100px;
 
     /* خاصة بحجم ونوع ولون اﻹطار Scroll */
-    border: 3px solid rgb(0, 0, 0);
-    }
+    border: 3px solid #1c9954
+   }
 
 img
 {
