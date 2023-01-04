@@ -1,0 +1,92 @@
+
+body
+{
+    background-color: #000000;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+}
+
+p
+{
+    background: #1c9954;
+    padding: 6px;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 1311px;
+}
+
+img
+{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.link:link
+{
+  text-decoration: none;
+}
+
+.link:visited
+{
+text-decoration: none;
+}
+.link:active
+{
+text-decoration: none;
+}
+.link:hover
+{
+text-decoration: none;
+}
+.link.forumlink:hover
+{
+text-decoration:none;
+}
+
+.link
+{
+ color: #fff;
+ background-color: #1c9954;
+ border-radius: 8px;
+ font-size: 30px;
+ padding: 5px;
+}
+
+.link:hover
+{
+  background-color: #48bd39;
+  padding: 10px;
+}
+.link:active
+{
+    background-color: #1c9954;
+}
+
+img
+{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+hr
+{
+    width: 500px;
+    color: #1c9954;
+    border: 1px solid #1c9954;
+}
