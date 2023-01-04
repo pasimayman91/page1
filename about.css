@@ -46,14 +46,18 @@ p
 
 img
 {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     display: block;
     margin: auto;
     padding: 20px;
     background-color: #000000;
 }
-
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
 .link:link
 {
   text-decoration: none;
@@ -95,17 +99,11 @@ text-decoration:none;
     background-color: #1c9954;
 }
 
-img
-{
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 200px;
-}
 
 hr
 {
     width: 500px;
     color: #1c9954;
     border: 1px solid #1c9954;
+    text-align: center;
 }
