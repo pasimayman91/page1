@@ -5,6 +5,27 @@ body
    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
+body::-webkit-scrollbar 
+{
+    /* عرض Scrollbar */
+    width: 2px;
+   }
+   body::-webkit-scrollbar-track {
+    /* تلوين منطقة التي يتحرك فيها Scroll */
+    background: rgb(0, 0, 0);
+   }
+   body::-webkit-scrollbar-thumb {
+    /* تغيير لون Scroll */
+    background-color: rgb(255, 255, 255);
+
+    /* تدوير أركان الإطار Scroll */
+    border-radius: 100px;
+
+    /* خاصة بحجم ونوع ولون اﻹطار Scroll */
+    border: 3px solid rgb(0, 0, 0);
+    }
+
 img
 {
    margin: auto;
