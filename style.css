@@ -17,8 +17,8 @@ body {
 {
   text-align: center;
   font-size: 25px;
-  background-color: #eecf1d;
-  color: black; 
+  background-color: #4c8f59;
+  color: #fff; 
   position: 50% 50%;
   border: 5px solid #fff;
   border-radius: 5px;
@@ -30,7 +30,7 @@ body {
 }
 .link:hover
 {
-  background: #000000;
+  background: #1b3721;
   color: #fff;
   transition: all 0.50s;
   border: 5px solid #fff;
@@ -40,8 +40,8 @@ body {
 .link:active
 {
   transition: all 0.3s;
-  background: #feed01;
-  color: #000000;
+  background: #1b3721;
+  color: #fff;
 }
 .link:link
 {
@@ -80,3 +80,20 @@ text-decoration:none;
 {
   color: #fff;
 }
+
+body::-webkit-scrollbar {
+	/* عرض Scrollbar */
+	width: 5px;
+}
+body::-webkit-scrollbar-track {
+	/* تلوين منطقة التي يتحرك فيها Scroll */
+	background: #498254;
+}
+body::-webkit-scrollbar-thumb {
+	/* تغيير لون Scroll */
+	background-color: #feed01;
+
+	/* تدوير أركان الإطار Scroll */
+	border-radius: 10px;
+}
+

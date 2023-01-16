@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  background: #000000;
+  text-align: center;
+}
+.link1,.link2:link
+{
+  text-decoration: none;
+}
+
+.link1,.link2:visited
+{
+text-decoration: none;
+}
+.link1,.link2:active
+{
+text-decoration: none;
+}
+.link1,.link2:hover
+{
+text-decoration: none;
+}
+.link1,.link2.forumlink:hover
+{
+text-decoration:none;
+}
+
+body::-webkit-scrollbar {
+	/* عرض Scrollbar */
+	width: 5px;
+}
+body::-webkit-scrollbar-track {
+	/* تلوين منطقة التي يتحرك فيها Scroll */
+	background: #498254;
+}
+body::-webkit-scrollbar-thumb {
+	/* تغيير لون Scroll */
+	background-color: #feed01;
+
+	/* تدوير أركان الإطار Scroll */
+	border-radius: 10px;
+}
+
+.pagelogo
+{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.link1
+{
+    color: #ffffff;
+    background: #498254;
+    padding: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 8px;
+    font-size: 25px;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+}
+
+.link1:hover
+{
+    background: #000000;
+    color: #4c8f59;
+    transition: all 0.50s;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.link1:active
+{
+    background: #000000;
+    color: #ffffff;
+    transition: all 0.50s;
+    padding: 10px;
+    font-size: 26px;
+}
+
+a
+{
+    transition: all 0.5s;
+}
+
+.foteer
+{
+  width: 50px;
+  height: 50px;
+}
+.footer
+{
+  color: #fff;
+}
