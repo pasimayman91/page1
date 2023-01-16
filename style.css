@@ -40,7 +40,7 @@ body {
 .link:active
 {
   transition: all 0.3s;
-  background: #1b3721;
+  background: #3b7447;
   color: #fff;
 }
 .link:link
