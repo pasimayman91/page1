@@ -82,18 +82,14 @@ text-decoration:none;
 }
 
 body::-webkit-scrollbar {
-	/* عرض Scrollbar */
 	width: 5px;
 }
 body::-webkit-scrollbar-track {
-	/* تلوين منطقة التي يتحرك فيها Scroll */
-	background: #498254;
+	background: #ffffff;
 }
 body::-webkit-scrollbar-thumb {
-	/* تغيير لون Scroll */
-	background-color: #feed01;
+	background-color: #498254;
 
-	/* تدوير أركان الإطار Scroll */
 	border-radius: 10px;
 }
 

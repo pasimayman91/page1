@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  background: #000000;
+  text-align: center;
+}
+
+.pagelogo
+{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+h1
+{
+    background: #4c8f59;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 5px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+h1:hover
+{
+    color:#000000;
+    transition: all 0.5s;
+}
+
+embed
+{
+    width: 70%;
+    height: 100%;
+    background: #4c8f59;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+body::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #498254;
+
+	border-radius: 10px;
+}
+
+.foteer
+{
+  width: 50px;
+  height: 50px;
+}
+.footer
+{
+  color: #fff;
+}
+
+hr
+{
+    width: 700px;
+}
+
