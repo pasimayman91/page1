@@ -69,8 +69,8 @@ body::-webkit-scrollbar-thumb {
   padding: 5px;
   transition: all 0.5s;
   display: block;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .link1:hover
