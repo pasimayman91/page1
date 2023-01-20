@@ -59,27 +59,29 @@ body::-webkit-scrollbar-thumb {
 .link1
 {
   text-align: center;
-  font-size: 25px;
   background-color: #4c8f59;
   color: #fff; 
   position: 50% 50%;
   border: 5px solid #fff;
   border-radius: 5px;
-  padding: 5px;
-  transition: all 0.5s;
-  display: block;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding: 4px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
 }
 
 .link1:hover
 {
   background: #1b3721;
-  color: #fff;
-  transition: all 0.50s;
-  border: 5px solid #fff;
-  padding: 10px;
-  font-size: 30;
+  transform: scale(1.1);
 }
 
 .link1:active

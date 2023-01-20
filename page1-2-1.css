@@ -40,6 +40,7 @@ h1:hover
 {
     color:#000000;
     transition: all 0.5s;
+    cursor: default;
 }
 
 embed
@@ -74,5 +75,60 @@ body::-webkit-scrollbar-thumb {
 hr
 {
     width: 700px;
+}
+
+.link1
+{
+  text-align: center;
+  font-size: 20px;
+  background-color: #4c8f59;
+  color: #fff; 
+  position: 50% 50%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 3px;
+  transition: all 0.5s;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.link1:hover
+{
+  background: #1b3721;
+  color: #fff;
+  transition: all 0.5s;
+  border: 5px solid #fff;
+  padding: 10px;
+  font-size: 30;
+}
+
+.link1:active
+{
+  transition: all 0.3s;
+  background: #3b7447;
+  color: #fff;
+}
+
+.link1,.link2:link
+{
+  text-decoration: none;
+}
+
+.link1,.link2:visited
+{
+text-decoration: none;
+}
+.link1,.link2:active
+{
+text-decoration: none;
+}
+.link1,.link2:hover
+{
+text-decoration: none;
+}
+.link1,.link2.forumlink:hover
+{
+text-decoration:none;
 }
 
