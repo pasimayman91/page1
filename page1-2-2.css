@@ -110,7 +110,9 @@ body::-webkit-scrollbar-thumb {
 .pagelogo {
     width: 200px;
     transition: 0.7s ease;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 img::after {
@@ -167,6 +169,13 @@ h1
   margin-bottom: 40px;
   transition: 0.7s ease;
 }
+
+h1:hover
+{
+
+  transform: scale(1.1);
+
+}
 .heading
 {
   color: #000000;
@@ -219,5 +228,10 @@ span
   text-shadow: none;
   font-size: 20px;
   padding: auto;
+}
+
+.all
+{
+  text-align: right;
 }
 
