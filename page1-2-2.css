@@ -136,7 +136,7 @@ ul
   display: block;
   color: #fff;
   list-style: none;
-  text-align: right;
+  text-align: center;
   margin: 20px;
 }
 
@@ -182,7 +182,8 @@ hr
 {
   width: 500px;
   justify-content: center;
-  margin-left: 850px;
+  margin-left: 450px;
+  margin-right: 600px;
 }
 
 p
@@ -202,7 +203,7 @@ span
   font-size: 35px;
   padding: 3px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: right;
+  text-align: center;
 
 }
 
