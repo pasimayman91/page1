@@ -82,6 +82,7 @@ body::-webkit-scrollbar-thumb {
 {
   background: #1b3721;
   transform: scale(1.1);
+  box-shadow: 2px 2px 10px 10px gray;
 }
 
 .link1:active
