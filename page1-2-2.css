@@ -156,6 +156,15 @@ h1
   border-radius: 8px;
   margin-left: 900px;
   padding: 3px;
+  position: 50% 50%;
+  border: 5px solid #fff;
+  margin-left: 50px;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
 }
 .heading
 {
@@ -200,5 +209,13 @@ span
 {
   color: #fff;
   font-size: 30px;
+}
+
+.elnasher
+{
+  color: #498254;
+  text-shadow: none;
+  font-size: 20px;
+  padding: auto;
 }
 
