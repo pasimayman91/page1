@@ -8,7 +8,7 @@
     <title>Amar Ayman</title>
     <style>
         body {
-            background-color: #000;
+            background-color: rgb(0, 0, 0);
         }
 
         img {
@@ -98,18 +98,120 @@
         h2:hover {
             transform: scale(0.5s);
         }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #000;
+            animation-name: bouncing;
+            animation-duration: 3s;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #ffff00;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #011;
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline;
+        }
+
+        nav {
+            background-color: #000;
+            float: left;
+            margin-top: 10px;
+        }
+
+        li {
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        .nav1 {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            color: #ffff00;
+        }
+
+        .contcnt {
+            float: right;
+            margin-right: 120px;
+        }
+
+        h5 {
+            margin-top: 25px;
+        }
+
+        .hr1 {
+            background-color: #ffff00;
+            height: 10px;
+            margin-top: 200px;
+            border: 1px solid #000;
+            margin-bottom: 10px;
+        }
+
+        .h3-1 {
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        section {
+            margin: 10px;
+        }
     </style>
 </head>
 
 <body>
-    <div>
+    <nav>
+        <ul>
+            <a href="https://pasimayman91.github.io/page1/" class="nav1">
+                <li>Home</li>
+            </a>
+            <a href="#post1" class="nav1">
+                <li>Contect</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="contcnt">
         <a href="https://pasimayman91.github.io/page1/" class="logo">
             <h1 class="logo">أسعار الكلاب</h1>
             <img src="logo.png" alt="Logo" class="logo">
         </a>
     </div>
-    <br><br><br>
-    <hr>
+    <br>
+    <hr class="hr1" />
+    <br>
     <br<br><br><br>
         <div class="content">
             <a href="#">

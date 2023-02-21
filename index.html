@@ -8,94 +8,184 @@
     <link rel="stylesheet" href="style.css" />
     <title>Amar Ayman</title>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
         body {
             background-color: #000;
             animation-name: bouncing;
             animation-duration: 3s;
         }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #ffff00;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #011;
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline;
+        }
+
+        nav {
+            background-color: #000;
+            float: left;
+            margin-top: 10px;
+        }
+
+        li {
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        .nav1 {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            color: #ffff00;
+        }
+
+        .contcnt {
+            float: right;
+            margin-right: 120px;
+        }
+
+        h5 {
+            margin-top: 25px;
+        }
+
+        .hr1 {
+            background-color: #ffff00;
+            height: 10px;
+            margin-top: 200px;
+            border: 1px solid #000;
+            margin-bottom: 10px;
+        }
+
+        .h3-1 {
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <a href="https://pasimayman91.github.io/page1/" class="nav1">
+                <li>Home</li>
+            </a>
+            <a href="#post1" class="nav1">
+                <li>Contect</li>
+            </a>
+        </ul>
+    </nav>
     <div class="contcnt">
         <a href="https://pasimayman91.github.io/page1/" class="logo">
             <h1 class="logo">أسعار الكلاب</h1>
             <img src="logo.png" alt="Logo" class="logo">
         </a>
-        <br><br><br>
-        <br>
     </div>
+    <br>
+    <hr class="hr1" />
+    <br>
+    <h3 class="h3-1">: الموضوعات</h3>
+    <br>
+    <div class="content">
+        <a href="#">
+            <img src="unnamed.webp"><br>
+            <br><br><br><br>
+            <h2>الكلب لولو</h2>
+            <h3>السعر حوالي 600 جنية مصري </h3>
+            <h4>AmarAyman.com</h4>
+            <br>
+            <br>
+            <a href="dog1-informations.html" class="read">
+                <h1 class="read">إقرأ المزيد</h1>
+            </a>
+        </a>
+    </div>
+    <br><br><br>
+    <br>
     <h5>هل لا تملك حساب ؟ <a href="#post1" class="post2" id="basse1">إنشاء حساب</a></h5>
-    <br><br>
+    <br><br><br>
     <br<br><br>
         <div class="content">
             <a href="#">
-                <img src="unnamed.webp"><br>
+                <img src="jpg.jpg"><br>
                 <br><br><br><br>
-                <h2>الكلب لولو</h2>
-                <h3>السعر حوالي 600 جنية مصري </h3>
+                <h2>كلب الهاسكى</h2>
+                <h3>يبدأ سعرة من 3500 : 11000 جنية مصري</h3>
                 <h4>AmarAyman.com</h4>
                 <br>
                 <br>
-                <a href="dog1-informations.html" class="read">
+                <a href="#" class="read">
                     <h1 class="read">إقرأ المزيد</h1>
                 </a>
             </a>
         </div>
         <br>
-        </div>
-        <br><br><br>
-        <br<br><br>
-            <div class="content">
-                <a href="#">
-                    <img src="jpg.jpg"><br>
-                    <br><br><br><br>
-                    <h2>كلب الهاسكى</h2>
-                    <h3>يبدأ سعرة من 3500 : 11000 جنية مصري</h3>
-                    <h4>AmarAyman.com</h4>
-                    <br>
-                    <br>
-                    <a href="#" class="read">
-                        <h1 class="read">إقرأ المزيد</h1>
-                    </a>
-                </a>
-            </div>
-            <br>
-            <br><br><br><br>
-            <hr><br><br><br>
-            <footer>
-                <form method="post" name="Login" class="form0">
-                    <h5>هل لا تملك حساب ؟ <a href="#basse1" class="post1" id="post1">إنشاء حساب</a></h5>
-                    <div>
-                        <label class="user" id="post1">Username</label>
-                        <input type="text" name="Username" placeholder="Username" class="Username" required>
-                    </div>
-                    <br>
-                    <div>
-                        <label>&nbsp;Password</label>
-                        <input type="password" name="Password" placeholder="Password" minlength="6" maxlength="15"
-                            required>
-                    </div>
-                    <br>
-                    <div>
-                        <label>&nbsp;Email</label>
-                        <input type="email" placeholder="E-mail" name="email" class="email" value="@gmail.com" required>
-                    </div>
+        <br><br><br><br>
+        <hr><br><br><br>
+        <footer>
+            <form method="post" name="Login" class="form0" action="home.html">
+                <h5>هل لا تملك حساب ؟ <a href="#basse1" class="post1" id="post1">إنشاء حساب</a></h5>
+                <div>
+                    <label class="user" id="post1">Username</label>
+                    <input type="text" name="Username" placeholder="Username" class="Username" required>
+                </div>
+                <br>
+                <div>
+                    <label>&nbsp;Password</label>
+                    <input type="password" name="Password" placeholder="Password" minlength="6" maxlength="15" required>
+                </div>
+                <br>
+                <div>
+                    <label>&nbsp;Email</label>
+                    <input type="email" placeholder="E-mail" name="email" class="email" value="@gmail.com" required>
+                </div>
 
-                    <br>
-                    <a href="home.html" class="button1" onclick="alert('Data Sent Sucessfully')">إنشاء حساب</a>
-                    <br>
-                    <input type="reset" class="button"
-                        onclick="alert('The data will be reset and you will have to enter it again')">
-                    <br>
-                </form>
                 <br>
+                <input type="submit" class="button" onclick="alert('Data sent successfully')" />
                 <br>
+                <input type="reset" class="button"
+                    onclick="alert('The data will be reset and you will have to enter it again')">
                 <br>
-                <hr>
-                <br>
-                CopyRight &copy; Bassem Ayman 2023
-            </footer>
+            </form>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            CopyRight &copy; Bassem Ayman 2023
+        </footer>
 </body>
 
 </html>
